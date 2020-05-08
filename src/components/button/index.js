@@ -1,9 +1,13 @@
 import React from "react";
 
-// import { Container } from './styles';
+import { Button } from "./styles";
 
 function button() {
-  return <button type="button">es6</button>;
+  return (
+    <Button altura={100} largura={200} cor="#321313">
+      es6
+    </Button>
+  );
 }
 
 export default button;
